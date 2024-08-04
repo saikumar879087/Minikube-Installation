@@ -1,6 +1,5 @@
 # Minikube Installation On AWS EC2
 
-
 ## What you’ll need
 2 CPUs or more
 2GB of free memory
@@ -46,7 +45,7 @@ sudo usermod -aG docker ubuntu
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
 ```
-### NOW LETS EXIT AND RELOGIN TO THE SERVER THEN START THE CLUSTER 
+### Now Lets Exit And ReLogin To The Server Then Start Cluster 
 ### Step 5: Start your cluster
 ```sh
 minikube start
